@@ -1,0 +1,13 @@
+.pageFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+}
+
+@media (max-width: 750px) {
+  .pageFooter {
+    padding: 0;
+  }
+}

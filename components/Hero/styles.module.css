@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.heroContent {
+  width: 60%;
+}
+
+.heroImage {
+  position: relative;
+  width: 34%;
+}
+
+.heroImage img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.heroImage::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--accent-color);
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+@media (max-width: 750px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroImage {
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+
+  .heroContent {
+    width: 100%;
+  }
+}

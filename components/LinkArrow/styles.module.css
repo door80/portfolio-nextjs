@@ -1,0 +1,19 @@
+.linkArrow {
+  display: inline-block;
+  margin-right: 1rem;
+  border: 0;
+}
+
+.linkArrow svg {
+  display: inline;
+  transform: translateX(2px);
+  transition: transform 200ms ease-in-out;
+}
+
+.linkArrow:hover svg {
+  transform: translateX(4px);
+}
+
+.linkArrow:hover svg path {
+  fill: var(--secondary-color);
+}
