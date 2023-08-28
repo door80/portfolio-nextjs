@@ -24,8 +24,9 @@ export default function Home() {
           <a href="https://kairos.art" target="_blank">
             Kairos
           </a>{' '}
-          bring brands into the web3 space. Previously, I was the Director of
-          Web Technology at{' '}
+          Bring radical participation to web3 by building word-class NFT tools
+          for artists and businesses. Previously, I was the Director of Web
+          Technology at{' '}
           <a href="https://thestarrconspiracy.com" target="_blank">
             The Starr Conspiracy
           </a>{' '}
