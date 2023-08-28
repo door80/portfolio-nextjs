@@ -104,20 +104,20 @@ export default function Home() {
         <p>
           This project was unique in a lot of ways. It was the first application
           to use the{' '}
-          <a href="https://fregg.kairos.art" target="_blank">
-            Kairos dynamic NFT developer tool
-          </a>
-          . You can{' '}
-          <a
-            href="https://kairos.art/blog/kairos-dynamic-nft-developer-tool"
-            target="_blank"
-          >
-            read more about that in a blog post I wrote
+          <a href="https://github.com/kairosnfts/dapp" target="_blank">
+            Kairos Dapp Library
           </a>
           . It was one of the first implementations of a dynamic NFT that
           changes every day based on the user&rsquo;s actions, and was also part
           of a competition with a cash prize, where the entry fee was the NFT
-          itself ($1 USD).
+          itself ($1 USD). You can{' '}
+          <a
+            href="https://kairos.art/blog/kairos-dynamic-nft-developer-tool"
+            target="_blank"
+          >
+            read more about all that in a blog post I wrote
+          </a>
+          .
         </p>
 
         <Media>
