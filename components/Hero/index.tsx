@@ -7,7 +7,7 @@ export default function Hero() {
     <div className={styles.hero}>
       <div className={styles.heroImage}>
         <Image
-          src="/michael-mercer.jpg"
+          src="/images/michael-mercer.jpg"
           alt="Michael Mercer"
           width={200}
           height={200}
