@@ -54,8 +54,8 @@ export default function Home() {
       <section>
         <h2>Past Experience — Fregg</h2>
         <p>
-          One of my favorite recent projects that I led the development for is
-          called{' '}
+          One of my favorite recent projects that I led the development for at
+          Kairos is{' '}
           <a href="https://fregg.kairos.art" target="_blank">
             Fregg
           </a>
@@ -205,6 +205,47 @@ export default function Home() {
           Android by using React Native with Expo. It has since become one of my
           favorite ecosystems to work with.
         </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Past Experience — Shomego</h2>
+        <p>
+          Near the end of 2020, a couple of friends and I were looking for a way
+          to help some of our local venues that were struggling due to in-person
+          restrictions. We wanted to create a way for venues to stream events,
+          sell tickets, and accept donations. That&rsquo;s why we created{' '}
+          <a href="https://shomego.com" target="_blank">
+            Shomego
+          </a>
+          . Not only did we build a web3 streaming platform that allowed the
+          audience to tip the venue using crypto, but we also provided a
+          cost-effective hardware solution for venues to rent.
+        </p>
+
+        <Media caption="Built as a custom React app, with web sockets and web3 payment systems">
+          <Image
+            src="/images/shomego-home.png"
+            alt="Shomego"
+            width={800}
+            height={800}
+          />
+        </Media>
+
+        <p>
+          We were able to build a fully functional streaming platform in a
+          matter of weeks, and we were able to get a few venues on board.
+        </p>
+
+        <Media caption="Live stream chat, with audio and video party functionality">
+          <Image
+            src="/images/shomego-show.png"
+            alt="Shomego"
+            width={800}
+            height={800}
+          />
+        </Media>
       </section>
 
       <Footer />
