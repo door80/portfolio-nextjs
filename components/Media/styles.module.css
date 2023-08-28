@@ -1,0 +1,30 @@
+.mediaCont {
+  position: relative;
+  margin: 1rem 0 2rem 0;
+}
+
+/* .mediaCont::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--accent-color);
+  top: 6px;
+  left: 6px;
+  z-index: -1;
+  border-radius: var(--border-radius);
+} */
+
+.mediaCont img,
+.mediaCont svg,
+.mediaCont video {
+  border: 1px solid var(--accent-color);
+  border-radius: var(--border-radius);
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  text-align: center;
+  margin: 0.5rem 0 0;
+}

@@ -6,10 +6,10 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --text-color: #48444e;
-  --bg-color: #fff;
+  --bg-color: #fcfcf8;
   --primary-color: #413976;
   --secondary-color: #806fe8;
-  --accent-color: #e3c2e9;
+  --accent-color: #d6ced8;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -69,7 +69,8 @@ h2 {
 }
 
 img,
-svg {
+svg,
+video {
   display: block;
   max-width: 100%;
   height: auto;
@@ -80,6 +81,29 @@ mark {
   font-style: italic;
 }
 
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 section {
   padding: 2rem 0;
+}
+
+.centered {
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  margin: 2rem 0;
+}
+
+hr::after {
+  content: '##########';
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
 }

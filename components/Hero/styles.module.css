@@ -16,7 +16,7 @@
 
 .heroImage img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 .heroImage::after {
@@ -28,7 +28,7 @@
   top: 10px;
   left: 10px;
   z-index: -1;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 @media (max-width: 750px) {

@@ -3,7 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4em 0;
+  padding: 4rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 750px) {
