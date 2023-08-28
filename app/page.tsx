@@ -107,10 +107,10 @@ export default function Home() {
           <a href="https://github.com/kairosnfts/dapp" target="_blank">
             Kairos Dapp Library
           </a>
-          . It was one of the first implementations of a dynamic NFT that
-          changes every day based on the user&rsquo;s actions, and was also part
-          of a competition with a cash prize, where the entry fee was the NFT
-          itself ($1 USD). You can{' '}
+          , one of the first implementations of a dynamic NFT that changes every
+          day based on the user&rsquo;s actions, and was also part of a
+          competition with a cash prize, where the entry fee was the NFT itself
+          ($1 USD). You can{' '}
           <a
             href="https://kairos.art/blog/kairos-dynamic-nft-developer-tool"
             target="_blank"
@@ -152,7 +152,7 @@ export default function Home() {
           both local and abroad.
         </p>
 
-        <MultiMedia>
+        <MultiMedia caption="Built with React Native + Expo, NodeJS and PostgreSQL">
           <Media>
             <video loop autoPlay muted width={375}>
               <source src="/videos/vol-explore.mp4" type="video/mp4" />

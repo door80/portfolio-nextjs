@@ -1,9 +1,17 @@
+.container {
+  margin: 2rem 0;
+}
+
 .multiMediaCont {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   gap: 1.5rem;
   width: 100%;
+}
+
+.multiMediaCont > div {
+  margin: 0;
 }
 
 .multiMediaCont.fullWidth {
@@ -15,4 +23,11 @@
   position: relative;
   right: 50%;
   width: 100vw;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  text-align: center;
+  margin: 0.5rem 0 0;
 }
