@@ -11,6 +11,7 @@ export default function Hero() {
           alt="Michael Mercer"
           width={200}
           height={200}
+          priority
         />
       </div>
       <div className={styles.heroContent}>
