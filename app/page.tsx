@@ -145,16 +145,16 @@ export default function Home() {
             <Image
               src="/images/kairos-verify.png"
               alt="Kairos verification"
-              width={450}
-              height={450}
+              width={380}
+              height={380}
             />
           </Media>
           <Media caption="See all collector information, with option to export">
             <Image
               src="/images/kairos-collectors-list.png"
               alt="Kairos collectors list"
-              width={450}
-              height={450}
+              width={380}
+              height={380}
             />
           </Media>
         </MultiMedia>
@@ -169,7 +169,7 @@ export default function Home() {
         </p>
 
         <Media caption="Built with React, Node.js, GraphQL, PostgreSQL, using Slate, SendGrid">
-          <video loop autoPlay muted width={800}>
+          <video loop autoPlay muted width={768}>
             <source
               src="/videos/kairos-campaign-color-editing.mp4"
               type="video/mp4"
@@ -188,8 +188,8 @@ export default function Home() {
           <Image
             src="/images/kairos-campaign-send.png"
             alt="Kairos camapign send"
-            width={800}
-            height={800}
+            width={768}
+            height={768}
           />
         </Media>
 
@@ -256,16 +256,16 @@ export default function Home() {
             <Image
               src="/images/fregg-verify.png"
               alt="Fregg"
-              width={450}
-              height={450}
+              width={380}
+              height={380}
             />
           </Media>
           <Media caption="Real-time competition leaderboards">
             <Image
               src="/images/fregg-leaderboard.png"
               alt="Fregg"
-              width={450}
-              height={450}
+              width={380}
+              height={380}
             />
           </Media>
         </MultiMedia>
@@ -293,8 +293,8 @@ export default function Home() {
           <Image
             src="/images/kairos-dapp-diagram.png"
             alt="Fregg"
-            width={800}
-            height={800}
+            width={768}
+            height={768}
           />
         </Media>
 
@@ -341,12 +341,12 @@ export default function Home() {
 
         <MultiMedia caption="Built with React Native + Expo, Node.js and PostgreSQL">
           <Media>
-            <video loop autoPlay muted width={375}>
+            <video loop autoPlay muted width={380}>
               <source src="/videos/vol-explore.mp4" type="video/mp4" />
             </video>
           </Media>
           <Media>
-            <video loop autoPlay muted width={375}>
+            <video loop autoPlay muted width={380}>
               <source src="/videos/vol-search.mp4" type="video/mp4" />
             </video>
           </Media>
@@ -364,24 +364,24 @@ export default function Home() {
             <Image
               src="/images/vol-activity.png"
               alt="VÖL activity feed"
-              width={280}
-              height={280}
+              width={256}
+              height={256}
             />
           </Media>
           <Media>
             <Image
               src="/images/vol-lists.png"
               alt="VÖL followed lists"
-              width={280}
-              height={280}
+              width={256}
+              height={256}
             />
           </Media>
           <Media>
             <Image
               src="/images/vol-profile.png"
               alt="VÖL profile"
-              width={280}
-              height={280}
+              width={256}
+              height={256}
             />
           </Media>
         </MultiMedia>
@@ -433,8 +433,8 @@ export default function Home() {
           <Image
             src="/images/shomego-home.png"
             alt="Shomego"
-            width={800}
-            height={800}
+            width={768}
+            height={768}
           />
         </Media>
 
@@ -447,8 +447,8 @@ export default function Home() {
           <Image
             src="/images/shomego-show.png"
             alt="Shomego"
-            width={800}
-            height={800}
+            width={768}
+            height={768}
           />
         </Media>
       </section>
