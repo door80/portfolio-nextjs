@@ -4,7 +4,6 @@ import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
 import Media from '@/components/Media'
 import MultiMedia from '@/components/MultiMedia'
-import Link from 'next/link'
 import LinkScroll from '@/components/LinkScroll'
 
 export default function Home() {
@@ -62,6 +61,7 @@ export default function Home() {
                 width="100"
                 height="100"
                 alt="Kairos"
+                priority
               />
             </LinkScroll>
           </Media>
@@ -73,6 +73,7 @@ export default function Home() {
                 width="100"
                 height="100"
                 alt="Fregg"
+                priority
               />
             </LinkScroll>
           </Media>
@@ -84,6 +85,7 @@ export default function Home() {
                 width="100"
                 height="100"
                 alt="VÖL"
+                priority
               />
             </LinkScroll>
           </Media>
@@ -95,6 +97,7 @@ export default function Home() {
                 width="100"
                 height="100"
                 alt="Shomego"
+                priority
               />
             </LinkScroll>
           </Media>
