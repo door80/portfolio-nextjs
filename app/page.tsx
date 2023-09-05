@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import Media from '@/components/Media'
 import MultiMedia from '@/components/MultiMedia'
 import Link from 'next/link'
+import LinkScroll from '@/components/LinkScroll'
 
 export default function Home() {
   return (
@@ -55,47 +56,47 @@ export default function Home() {
         <h2>Notable Projects</h2>
         <MultiMedia isCentered={false}>
           <Media caption="Kairos">
-            <Link href="#kairos">
+            <LinkScroll href="#kairos">
               <Image
                 src="/images/kairos-logo.png"
                 width="100"
                 height="100"
                 alt="Kairos"
               />
-            </Link>
+            </LinkScroll>
           </Media>
 
           <Media caption="Fregg">
-            <Link href="#fregg">
+            <LinkScroll href="#fregg">
               <Image
                 src="/images/fregg-logo.png"
                 width="100"
                 height="100"
                 alt="Fregg"
               />
-            </Link>
+            </LinkScroll>
           </Media>
 
           <Media caption="VÖL">
-            <Link href="#vol">
+            <LinkScroll href="#vol">
               <Image
                 src="/images/vol-logo.png"
                 width="100"
                 height="100"
                 alt="VÖL"
               />
-            </Link>
+            </LinkScroll>
           </Media>
 
           <Media caption="Shomego">
-            <Link href="#shomego">
+            <LinkScroll href="#shomego">
               <Image
                 src="/images/shomego-logo.png"
                 width="100"
                 height="100"
                 alt="Shomego"
               />
-            </Link>
+            </LinkScroll>
           </Media>
         </MultiMedia>
       </section>
