@@ -22,7 +22,7 @@ export default function Hero() {
           engineering leadership and execution.
         </p>
 
-        <h2>Connect</h2>
+        <h3>Connect</h3>
         <LinkArrow href="https://twitter.com/michaelmercer" isExternal>
           Twitter
         </LinkArrow>

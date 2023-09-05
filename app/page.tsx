@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
 import Media from '@/components/Media'
 import MultiMedia from '@/components/MultiMedia'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Hero />
 
       <section>
-        <h2>About</h2>
+        <h3>About</h3>
         <p>
           I&rsquo;m a frontend software engineer with more than 10 years of
           experience in architecting and developing applications and websites.
@@ -50,10 +51,176 @@ export default function Home() {
         </p>
       </section>
 
+      <section>
+        <h2>Notable Projects</h2>
+        <MultiMedia isCentered={false}>
+          <Media caption="Kairos">
+            <Link href="#kairos">
+              <Image
+                src="/images/kairos-logo.png"
+                width="100"
+                height="100"
+                alt="Kairos"
+              />
+            </Link>
+          </Media>
+
+          <Media caption="Fregg">
+            <Link href="#fregg">
+              <Image
+                src="/images/fregg-logo.png"
+                width="100"
+                height="100"
+                alt="Fregg"
+              />
+            </Link>
+          </Media>
+
+          <Media caption="VÖL">
+            <Link href="#vol">
+              <Image
+                src="/images/vol-logo.png"
+                width="100"
+                height="100"
+                alt="VÖL"
+              />
+            </Link>
+          </Media>
+
+          <Media caption="Shomego">
+            <Link href="#shomego">
+              <Image
+                src="/images/shomego-logo.png"
+                width="100"
+                height="100"
+                alt="Shomego"
+              />
+            </Link>
+          </Media>
+        </MultiMedia>
+      </section>
+
       <hr />
 
-      <section>
-        <h2>Past Experience — Fregg</h2>
+      <section id="kairos">
+        <div className={styles.sectionHeader}>
+          <div className={styles.sectionIcon}>
+            <Media noMargin>
+              <Image
+                src="/images/kairos-logo.png"
+                width="50"
+                height="50"
+                alt="Kairos"
+              />
+            </Media>
+          </div>
+
+          <h3>
+            Company: Kairos
+            <br />
+            Project: Campaign Builder
+          </h3>
+        </div>
+
+        <p>
+          One of the issues we heard from NFT creators was that it&rsquo;s hard
+          to stay connected with their collectors, and existing tools were too
+          cumbersome, or difficult, to setup. Kairos aimed to solve this by
+          providing creators with tools to collect email addresses from their
+          collectors, compose emails and send them out &mdash; without leaving
+          the Kairos platform!
+        </p>
+
+        <p>
+          The first step in this process is to verify <em>current</em> NFT
+          holders of a collection, and then provide an optional email address
+          input so they could stay connected with the creator. On the creator
+          side, new UIs were added for displaying all current holders, when they
+          were last verified, along with any emails collected.
+        </p>
+
+        <MultiMedia>
+          <Media caption="Verify connected wallets on the blockchain">
+            <Image
+              src="/images/kairos-verify.png"
+              alt="Kairos verification"
+              width={450}
+              height={450}
+            />
+          </Media>
+          <Media caption="See all collector information, with option to export">
+            <Image
+              src="/images/kairos-collectors-list.png"
+              alt="Kairos collectors list"
+              width={450}
+              height={450}
+            />
+          </Media>
+        </MultiMedia>
+
+        <p>
+          The email builder tool allowed for quite a bit of customization, and
+          came with sensible defaults tied to the collection color pallete and
+          logos. Users can adjust settings like adding images, CTA buttons,
+          email meta information and can type directly within the editor to
+          adjust copy and font styles, which can all be seen updating and saving
+          in real-time.
+        </p>
+
+        <Media caption="Built with React, Node.js, GraphQL, PostgreSQL, using Slate, SendGrid">
+          <video loop autoPlay muted width={800}>
+            <source
+              src="/videos/kairos-campaign-color-editing.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </Media>
+
+        <p>
+          Creators can see a preview of their email before sending it out, and
+          even request a test send to themselves, just to double check! Since
+          emails are sent out using a queue of server jobs, the creator will
+          also see the current status of the campaigns they have sent.
+        </p>
+
+        <Media caption="See what your collectors will see in their inbox">
+          <Image
+            src="/images/kairos-campaign-send.png"
+            alt="Kairos camapign send"
+            width={800}
+            height={800}
+          />
+        </Media>
+
+        <p>
+          Creators were excited to have access to even more ways to connect with
+          their holders, without having to setup anything else outside of
+          Kairos, understand Etherscan or have any coding knowledge.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="fregg">
+        <div className={styles.sectionHeader}>
+          <div className={styles.sectionIcon}>
+            <Media noMargin>
+              <Image
+                src="/images/fregg-logo.png"
+                width="50"
+                height="50"
+                alt="Fregg"
+              />
+            </Media>
+          </div>
+
+          <h3>
+            Company: Kairos
+            <br />
+            Project: Fregg
+          </h3>
+        </div>
+
         <p>
           One of my favorite recent projects that I led the development for at
           Kairos is{' '}
@@ -64,7 +231,7 @@ export default function Home() {
           pets that evolve with your daily care!
         </p>
 
-        <Media caption="Built with NextJs, GraphQL, PostgreSQL, using Spline, SendGrid and the Kairos Dapp API">
+        <Media caption="Built with Next.js, GraphQL, PostgreSQL, using Spline, SendGrid and the Kairos Dapp API">
           <video loop autoPlay muted>
             <source src="/videos/fregg-home.mp4" type="video/mp4" />
           </video>
@@ -139,8 +306,26 @@ export default function Home() {
 
       <hr />
 
-      <section>
-        <h2>Past Experience — VÖL</h2>
+      <section id="vol">
+        <div className={styles.sectionHeader}>
+          <div className={styles.sectionIcon}>
+            <Media noMargin>
+              <Image
+                src="/images/vol-logo.png"
+                width="50"
+                height="50"
+                alt="VÖL"
+              />
+            </Media>
+          </div>
+
+          <h3>
+            Company: VÖL
+            <br />
+            Project: Mobile App
+          </h3>
+        </div>
+
         <p>
           &ldquo;Where should we go for dinner?&rdquo; &ldquo;Do you have any
           recommendations for two days in Paris?&rdquo; We&rsquo;ve all been
@@ -153,7 +338,7 @@ export default function Home() {
           both local and abroad.
         </p>
 
-        <MultiMedia caption="Built with React Native + Expo, NodeJS and PostgreSQL">
+        <MultiMedia caption="Built with React Native + Expo, Node.js and PostgreSQL">
           <Media>
             <video loop autoPlay muted width={375}>
               <source src="/videos/vol-explore.mp4" type="video/mp4" />
@@ -210,8 +395,26 @@ export default function Home() {
 
       <hr />
 
-      <section>
-        <h2>Past Experience — Shomego</h2>
+      <section id="shomego">
+        <div className={styles.sectionHeader}>
+          <div className={styles.sectionIcon}>
+            <Media noMargin>
+              <Image
+                src="/images/shomego-logo.png"
+                width="50"
+                height="50"
+                alt="Shomego"
+              />
+            </Media>
+          </div>
+
+          <h3>
+            Company: Shomego
+            <br />
+            Project: Live Streaming Webapp
+          </h3>
+        </div>
+
         <p>
           Near the end of 2020, a couple of friends and I were looking for a way
           to help some of our local venues that were struggling due to in-person

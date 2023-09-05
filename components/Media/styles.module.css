@@ -3,6 +3,10 @@
   margin: 2rem 0;
 }
 
+.mediaCont.noMargin {
+  margin: 0;
+}
+
 /* .mediaCont::after {
   content: '';
   width: 100%;
