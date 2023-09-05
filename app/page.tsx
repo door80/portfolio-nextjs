@@ -130,7 +130,7 @@ export default function Home() {
           One of the issues we heard from NFT creators was that it&rsquo;s hard
           to stay connected with their collectors, and existing tools were too
           cumbersome, or difficult, to setup. Kairos aimed to solve this by
-          providing creators with tools to collect email addresses from their
+          providing creators with tools to request email addresses from their
           collectors, compose emails and send them out &mdash; without leaving
           the Kairos platform!
         </p>
