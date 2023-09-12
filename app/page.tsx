@@ -172,7 +172,7 @@ export default function Home() {
         </p>
 
         <Media caption="Built with React, Node.js, GraphQL, PostgreSQL, using Slate, SendGrid">
-          <video loop autoPlay muted width={768}>
+          <video loop autoPlay playsInline muted width={768}>
             <source
               src="/videos/kairos-campaign-color-editing.mp4"
               type="video/mp4"
@@ -236,7 +236,7 @@ export default function Home() {
         </p>
 
         <Media caption="Built with Next.js, GraphQL, PostgreSQL, using Spline, SendGrid and the Kairos Dapp API">
-          <video loop autoPlay muted>
+          <video loop autoPlay playsInline muted>
             <source src="/videos/fregg-home.mp4" type="video/mp4" />
           </video>
         </Media>
@@ -344,12 +344,12 @@ export default function Home() {
 
         <MultiMedia caption="Built with React Native + Expo, Node.js and PostgreSQL">
           <Media>
-            <video loop autoPlay muted width={380}>
+            <video loop autoPlay playsInline muted width={380}>
               <source src="/videos/vol-explore.mp4" type="video/mp4" />
             </video>
           </Media>
           <Media>
-            <video loop autoPlay muted width={380}>
+            <video loop autoPlay playsInline muted width={380}>
               <source src="/videos/vol-search.mp4" type="video/mp4" />
             </video>
           </Media>
@@ -365,7 +365,7 @@ export default function Home() {
         <MultiMedia>
           <Media>
             <Image
-              src="/images/vol-activity.png"
+              src="/images/vol-activity.jpg"
               alt="VÖL activity feed"
               width={256}
               height={256}
@@ -373,7 +373,7 @@ export default function Home() {
           </Media>
           <Media>
             <Image
-              src="/images/vol-lists.png"
+              src="/images/vol-lists.jpg"
               alt="VÖL followed lists"
               width={256}
               height={256}
@@ -381,7 +381,7 @@ export default function Home() {
           </Media>
           <Media>
             <Image
-              src="/images/vol-profile.png"
+              src="/images/vol-profile.jpg"
               alt="VÖL profile"
               width={256}
               height={256}
@@ -434,7 +434,7 @@ export default function Home() {
 
         <Media caption="Built as a custom React app, with web sockets and web3 payment systems">
           <Image
-            src="/images/shomego-home.png"
+            src="/images/shomego-home.jpg"
             alt="Shomego"
             width={768}
             height={768}
